@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Index.css" />
+    <title>Cuento</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">
+        <h1>Diseña tu cuento</h1>
+      </div>
+      <form id="form">
+        <div class="main-form">
+          <div>
+            <label for="name">Nombres:</label>
+            <input type="text" required="required" id="name" name="name" />
+          </div>
+          <div>
+            <label for="lastName">Apellidos:</label>
+            <input
+              type="text"
+              required="required"
+              id="lastName"
+              name="lastName"
+            />
+          </div>
+          <div>
+            <label for="hairColor">Color de cabello:</label>
+            <input
+              type="text"
+              required="required"
+              id="hairColor"
+              name="hairColor"
+            />
+          </div>
+          <div>
+            <label for="eyesColor">Color de ojos:</label>
+            <input
+              type="text"
+              required="required"
+              id="eyesColor"
+              name="eyesColor"
+            />
+          </div>
+          <div>
+            <label for="age">Edad:</label>
+            <input
+              type="number"
+              required="required"
+              min="0"
+              id="age"
+              name="age"
+            />
+          </div>
+          <div>
+            <label for="nickName">Apodo:</label>
+            <input
+              type="text"
+              required="required"
+              id="nickName"
+              name="nickName"
+            />
+          </div>
+          <div>
+            <label for="hobby">Hobby:</label>
+            <input type="text" required="required" id="hobby" name="hobby" />
+          </div>
+          <input type="submit" value="Crear" />
+        </div>
+      </form>
+      <div class="story-container">
+        <p></p>
+      </div>
+    </div>
+    <script type="text/javascript" src="Index.js"></script>
+  </body>
+</html>

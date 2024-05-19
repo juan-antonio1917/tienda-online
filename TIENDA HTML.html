@@ -1,0 +1,132 @@
+<!Doctype html><!--inicio del codigo-->
+<html lang="en">
+<head>
+    <meta chatset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+    <title>CompraYaFaro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="content">
+
+            <div class="menu container"><!--Se crea el menu con las paginas a conectar-->
+                <a href="TIENDA HTML.html" class="logo">CompraYaFaro</a>
+                <input type="checkbox" id="menu"/>
+                <label for="menu">
+                    <img src="Images/menu.png" class="menu-icono" alt="">
+                </label>   
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="TIENDA HTML.html">Inicio</a></li>
+                        <li><a href="FORMULARIO/Index.html">Crea tú cuento</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="cotizacion.html">Cotización</a></li>
+                    </ul>
+                </nav> 
+            </div>
+
+        </div>
+    </header>
+
+    <header>
+
+        <div class="container-icon"><!--Se crea el icono del carrito y se definen las clases-->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                />
+            </svg>
+            <div class="count-products">
+                <span id="contador-productos">1</span>
+            </div>
+
+            <div class="container-cart-products
+            hidden-cart">
+                <div class="cart-product"> 
+                    <div class="info-cart-product">
+                        <span class="cantidad-producto-carrito">1</span>
+                        <p class="titulo-producto-carrito">Zapatos Nike</p>
+                        <span class="precio-producto-carrito">100</span>
+
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>                         
+                </div>
+                <div class="cart-total">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$100</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <h1>Inicio</h1><!--Titulo de la pagina-->
+    <div class="container-items">
+        <div class="item"><!--Se crea los items productos-->
+            <figure>
+                <img 
+                    src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="producto"
+                />
+            <figure>
+            <div class="info-producto"><!--Se define la informacion de casa item-->
+                <h2>Zapatos Nike</h2>
+                <p class="price">$100</p>
+                <button>Añadir Al Carrito</button>
+            </div>    
+        </div>
+        <div class="item">
+            <figure>
+                <img 
+                    src="https://images.unsplash.com/photo-1674658556545-f18d4080ab6c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="producto"
+                />
+            <figure>
+            <div class="info-producto">
+                <h2>Audifonos Bose</h2>
+                <p class="price">$500</p>                        
+                <button>Añadir al carrito</button>
+            </div>    
+        </div>
+        <div class="item">
+            <figure>
+                <img 
+                    src="https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="producto"
+                />
+            <figure>
+            <div class="info-producto">
+                <h2>Rolex</h2>
+                <p class="price">$1000</p>
+                <button>Añadir al carrito</button>
+            </div>    
+        </div>
+        <div class="item">
+            <figure>
+                <img 
+                    src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="producto"
+                />
+            <figure>
+            <div class="info-producto">
+                <h2>Apple Watch</h2>
+                <p class="price">$250</p>
+                <button>Añadir al carrito</button>
+            </div>    
+        </div>
+        <div class="item">
+            <figure>
+                <img 
+                    src="https://images.unsplash.com/photo-1638551442447-085a2d42918f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="producto"
+                />
+            <figure>
+            <div class="info-producto">
+                <h2>Perfume Hugo Boss</h2>
+                <p class="price">$300</p>
+                <button>Añadir al carrito</button>   
+            </div>
+        </div>    
+    </div>
+
+    <script src="index.js"></script><!--Se conecta con java-->
+
+
+</body>
+</html><!--Fin del codigo-->
